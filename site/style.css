@@ -55,11 +55,38 @@ a {
 .navbar-brand p span {
 	vertical-align: middle;
 }
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    width: 100%;
-    padding-right: var(--bs-gutter-x,.75rem);
-    padding-left: var(--bs-gutter-x,.75rem);
-    margin-right: 10px;
-    margin-left: 10px;
+
+
+
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a {
+	color: #F5F5F5;
+	text-align: center;
+}
+#nav-list a:hover {
+	background: #FF578C;
+}
+#nav-list a span {
+	font-size: 1.8em;
+}
+#phone {
+	margin-top: 5px;
+}
+#phone {
+	text-align: right;
+	padding-bottom: 0;
+}
+#phone div {
+	color: #34A56F;
+	text-align: right;
+	padding-right: 15px;
 }
 
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #F5F5F5; 
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+}
