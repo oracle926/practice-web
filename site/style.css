@@ -24,11 +24,8 @@ p img {
 	width: 25px;
 	height: 25px;
 }
-.pull-left {
-	float: left;
-}
 .navbar-brand {
-	 padding-top: 10px;
+	 padding-top: 20px;
 }
 .navbar-brand h1 {
 	font-family: 'Lora', serif;
@@ -65,3 +62,4 @@ a {
     margin-right: 10px;
     margin-left: 10px;
 }
+
